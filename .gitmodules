@@ -1,0 +1,3 @@
+[submodule "ForbidBackupBot"]
+	path = ForbidBackupBot
+	url = https://github.com/Hosfad/ForbidBackupBot
