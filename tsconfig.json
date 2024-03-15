@@ -15,6 +15,7 @@
         "verbatimModuleSyntax": true,
         "noEmit": true,
         "noEmitOnError": true,
+        
         /* Linting */
         "skipLibCheck": true,
         "strict": true,
@@ -25,5 +26,11 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "noPropertyAccessFromIndexSignature": true
-    }
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "ForbidBackupBot",
+        "guide"
+    ]
 }

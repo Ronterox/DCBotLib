@@ -1,3 +1,6 @@
 [submodule "ForbidBackupBot"]
 	path = ForbidBackupBot
 	url = https://github.com/Hosfad/ForbidBackupBot
+[submodule "guide"]
+	path = guide
+	url = https://github.com/discordjs/guide
