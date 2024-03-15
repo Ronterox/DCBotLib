@@ -9,7 +9,8 @@ console.log(num);
 console.log(num);
 
 while (true) {
-    console.log("Hi mom!");
+    console.log("Bye mom!", num);
+    num+=1;
     sleepSync(3000);
 }
 

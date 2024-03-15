@@ -3,7 +3,7 @@
     "module": "index.ts",
     "type": "module",
     "scripts": {
-        "dev": "tsc -w & bun src/index.ts"
+        "dev": "tsc -w & bun --watch src/index.ts"
     },
     "devDependencies": {
         "@types/bun": "latest"
