@@ -1,0 +1,14 @@
+{
+    "name": "dcbotlib",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "tsc",
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
