@@ -1,16 +1,12 @@
-import { sleepSync } from "bun";
+import { Client, IntentsBitField } from 'discord.js';
+import { getEnv } from './utils';
 
-let num = 1;
+console.log(`Running in ${process.env.NODE_ENV} mode`);
 
-console.log(num);
+const token = getEnv('TOKEN');
+console.log(`Token is ${token}`);
 
- // num = "Hi mom!";
+const client = new Client({ intents: IntentsBitField.Flags.Guilds });
 
-console.log(num);
-
-while (true) {
-    console.log("Bye mom!", num);
-    num+=1;
-    sleepSync(3000);
-}
-
+client.once('ready', () => { console.log(`Logged in as ${client.user?.tag}`); });
+client.login(token);
