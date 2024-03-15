@@ -1,10 +1,15 @@
+import { sleepSync } from "bun";
+
 let num = 1;
 
 console.log(num);
 
-// num = "Hi mom!";
+ // num = "Hi mom!";
 
 console.log(num);
 
-// const test = 0;
+while (true) {
+    console.log("Hi mom!");
+    sleepSync(3000);
+}
 
